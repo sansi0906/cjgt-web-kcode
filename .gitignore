@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+
+# Environment files (contains sensitive data)
+.env
+web_auto/config/.env
+*.env.local
+*.env.*.local
+
+# Test reports and artifacts
+reports/
+web_auto/reports/
+screenshots/
+web_auto/screenshots/
+*.html
+*.json
+*.xml
+*.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
